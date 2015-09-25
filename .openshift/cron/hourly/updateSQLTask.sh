@@ -1,6 +1,6 @@
 #!/bin/bash
 hour=$(date '+%H')
-if [ $hour != 18 ] && [ $hour != 11 ]; then
+if [ $hour != 18 ] && [ $hour != 5 ]; then
     exit
 fi
 curl "http://server-fixwin.rhcloud.com/refresh"
